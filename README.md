@@ -1,46 +1,46 @@
 # iSanoq Bot
 
-A powerful Telegram bot for tracking and managing group members with advanced admin features.
+Guruh a'zolarini kuzatish va boshqarish uchun kuchli Telegram bot.
 
-## Features
+## Imkoniyatlar
 
-### User Tracking
-- 📊 Track how many members each user adds to the group
-- 🏆 View top contributors who added the most members
-- 📋 See complete list of all contributors
+### Foydalanuvchilarni kuzatish
+- 📊 Har bir foydalanuvchi guruhga qo'shgan a'zolar sonini kuzatish
+- 🏆 Eng ko'p a'zo qo'shgan foydalanuvchilar ro'yxatini ko'rish
+- 📋 Barcha hissa qo'shgan foydalanuvchilar ro'yxatini ko'rish
 
-### Group Management
-- ➕ Set minimum required member additions before users can post
-- 🔑 Grant privileges to specific users
-- 🗑️ Clear group data when needed
+### Guruhni boshqarish
+- ➕ Foydalanuvchilar xabar yozishi uchun minimal a'zo qo'shish talabini o'rnatish
+- 🔑 Maxsus foydalanuvchilarga imtiyozlar berish
+- 🗑️ Kerak bo'lganda guruh ma'lumotlarini tozalash
 
-### Admin Panel
-- 📨 Send broadcasts to users, groups, or both
-- 📱 Create media posts with buttons
-- 👥 View all groups where the bot is added
-- 📊 View comprehensive statistics
+### Admin panel
+- 📨 Foydalanuvchilarga, guruhlarga yoki ikkalasiga ham xabar yuborish
+- 📱 Tugmachali media postlar yaratish
+- 👥 Bot qo'shilgan barcha guruhlarni ko'rish
+- 📊 Batafsil statistikani ko'rish
 
-## Commands
+## Buyruqlar
 
-### General Commands
-- `/start` - Start the bot
-- `/help` - Show help information
-- `/mymembers` - Check how many members you've added
-- `/yourmembers` - Check how many members another user has added (reply to their message)
-- `/top` - View top 10 users who added the most members
-- `/all` - View all users who added members
-- `/delall` - Clear all member data (admin only)
-- `/id` - Get your user ID
-- `/uid` - Get another user's ID (reply to their message)
-- `/grid` - Get the group ID
+### Umumiy buyruqlar
+- `/start` - Botni ishga tushirish
+- `/help` - Yordam ma'lumotlarini ko'rsatish
+- `/mymembers` - Siz qo'shgan a'zolar sonini tekshirish
+- `/yourmembers` - Boshqa foydalanuvchi qo'shgan a'zolar sonini tekshirish (xabariga javob tariqasida)
+- `/top` - Eng ko'p a'zo qo'shgan 10 ta foydalanuvchini ko'rish
+- `/all` - A'zo qo'shgan barcha foydalanuvchilarni ko'rish
+- `/delall` - Barcha a'zo ma'lumotlarini tozalash (faqat admin uchun)
+- `/id` - O'z foydalanuvchi ID raqamingizni olish
+- `/uid` - Boshqa foydalanuvchining ID raqamini olish (xabariga javob tariqasida)
+- `/grid` - Guruh ID raqamini olish
 
-### Admin Commands
-- `/add` - Enable mandatory member addition requirement
-- `/add [number]` - Set required number of members to add
-- `/add off` - Disable mandatory member addition requirement
-- `/panel` - Access admin panel (bot admin only)
+### Admin buyruqlari
+- `/add` - Majburiy a'zo qo'shish talabini yoqish
+- `/add [raqam]` - Qo'shilishi kerak bo'lgan a'zolar sonini belgilash
+- `/add off` - Majburiy a'zo qo'shish talabini o'chirish
+- `/panel` - Admin panelga kirish (faqat bot admini uchun)
 
-## Setup
+## O'rnatish
 
-1. Clone this repository
-2. Install the required dependencies:
+1. Ushbu repozitoriyani klonlang
+2. Kerakli kutubxonalarni o'rnating:
